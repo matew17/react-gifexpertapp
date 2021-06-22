@@ -5,7 +5,7 @@ import { useFetchGifs } from '../hooks/useFetchGifs';
 import GifGridItem from './GifGridItem';
 
 function GifGrid({ category }) {
-    const { data: images, loading } = useFetchGifs(category); // data:images renombre lo que llega como data por images
+    const { data: images, loading } = useFetchGifs(category);
 
     return (
         <>

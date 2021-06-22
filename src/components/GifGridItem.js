@@ -16,4 +16,3 @@ GifGridItem.propTypes = {
 }
 
 export default GifGridItem
-

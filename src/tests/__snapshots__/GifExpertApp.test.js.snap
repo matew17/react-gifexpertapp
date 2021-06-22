@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`probar GifExpertApp debe renderizar el componente  1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategory={[Function]}
+  />
+  <hr />
+  <ul>
+    <GifGrid
+      category="Kimetsu no yaiba"
+      key="Kimetsu no yaiba"
+    />
+  </ul>
+</Fragment>
+`;
